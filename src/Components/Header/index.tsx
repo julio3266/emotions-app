@@ -1,5 +1,6 @@
 import React from 'react';
 import {assignTestId} from '../../../src/utils/qualityAssurance';
+import {CustomStatusBar} from '../CustomStatusBar';
 // import {CustomStatusBar} from '../CustomStatusBar';
 import * as Styled from './styles';
 
@@ -18,9 +19,14 @@ export const Header: React.FC<IHeaderProps> = ({
 }) => {
   return (
     <Styled.Container {...assignTestId('View', testID)}>
-      {/* <CustomStatusBar type="light" /> */}
+      <CustomStatusBar
+        {...assignTestId('StatusBar', `${testID}_statusBar`)}
+        type="light"
+      />
       {isBack && (
-        <Styled.BackButton onPress={handlePress}>
+        <Styled.BackButton
+          {...assignTestId('TouchableOpacity', `${testID}_backButton`)}
+          onPress={handlePress}>
           <Styled.LeftIcon />
         </Styled.BackButton>
       )}
