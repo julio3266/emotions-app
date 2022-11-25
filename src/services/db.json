@@ -1,0 +1,119 @@
+{
+  "emotions": [
+    {
+      "id": 1,
+      "name": "Happy",
+      "emoji": ""
+    },
+    {
+      "id": 2,
+      "name": "Confident",
+      "emoji": ""
+    },
+    {
+      "id": 3,
+      "name": "Proud",
+      "emoji": ""
+    },
+    {
+      "id": 4,
+      "name": "Grateful",
+      "emoji": ""
+    },
+    {
+      "id": 5,
+      "name": "Numb",
+      "emoji": ""
+    },
+    {
+      "id": 6,
+      "name": "Agry",
+      "emoji": ""
+    },
+    {
+      "id": 7,
+      "name": "Bored",
+      "emoji": ""
+    },
+    {
+      "id": 8,
+      "name": "Joyful",
+      "emoji": ""
+    },
+    {
+      "id": 9,
+      "name": "Optmist",
+      "emoji": ""
+    },
+    {
+      "id": 10,
+      "name": "Okay",
+      "emoji": ""
+    },
+    {
+      "id": 11,
+      "name": "Depressed",
+      "emoji": ""
+    },
+    {
+      "id": 12,
+      "name": "Wicked",
+      "emoji": ""
+    },
+    {
+      "id": 13,
+      "name": "Excited",
+      "emoji": ""
+    },
+    {
+      "id": 14,
+      "name": "Anxious",
+      "emoji": ""
+    },
+    {
+      "id": 15,
+      "name": "Stressed",
+      "emoji": ""
+    },
+    {
+      "id": 16,
+      "name": "Tired",
+      "emoji": ""
+    },
+    {
+      "id": 17,
+      "name": "Ashamed",
+      "emoji": ""
+    },
+    {
+      "id": 18,
+      "name": "Insecure",
+      "emoji": ""
+    },
+    {
+      "id": 19,
+      "name": "Sad",
+      "emoji": ""
+    },
+    {
+      "id": 20,
+      "name": "Envious",
+      "emoji": ""
+    },
+    {
+      "id": 21,
+      "name": "Disgusted",
+      "emoji": ""
+    },
+    {
+      "id": 22,
+      "name": "Friendly",
+      "emoji": ""
+    },
+    {
+      "id": 23,
+      "name": "Positive",
+      "emoji": ""
+    }
+  ]
+}
