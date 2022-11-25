@@ -37,6 +37,7 @@ type componentType =
   | 'Slider'
   | 'Segment'
   | 'Pressable'
+  | 'StatusBar'
   | 'Button';
 
 export const assignTestId = (
