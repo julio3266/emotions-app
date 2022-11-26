@@ -3,117 +3,121 @@
     {
       "id": 1,
       "name": "Happy",
-      "emoji": ""
+      "emoji": "😊"
     },
     {
       "id": 2,
       "name": "Confident",
-      "emoji": ""
+      "emoji": "😍"
     },
     {
       "id": 3,
       "name": "Proud",
-      "emoji": ""
+      "emoji": "😎"
     },
     {
       "id": 4,
       "name": "Grateful",
-      "emoji": ""
+      "emoji": "😇"
     },
+
     {
       "id": 5,
       "name": "Numb",
-      "emoji": ""
+      "emoji": "😐"
     },
     {
       "id": 6,
       "name": "Agry",
-      "emoji": ""
+      "emoji": "😠"
     },
     {
       "id": 7,
       "name": "Bored",
-      "emoji": ""
+      "emoji": "🙁"
     },
     {
       "id": 8,
       "name": "Joyful",
-      "emoji": ""
+      "emoji": "🤗"
     },
+
     {
       "id": 9,
       "name": "Optmist",
-      "emoji": ""
+      "emoji": "😀"
     },
     {
       "id": 10,
       "name": "Okay",
-      "emoji": ""
+      "emoji": "👌"
     },
     {
       "id": 11,
       "name": "Depressed",
-      "emoji": ""
+      "emoji": "😪"
     },
     {
       "id": 12,
       "name": "Wicked",
-      "emoji": ""
+      "emoji": "😈"
     },
+
     {
       "id": 13,
       "name": "Excited",
-      "emoji": ""
+      "emoji": "😃"
     },
     {
       "id": 14,
       "name": "Anxious",
-      "emoji": ""
+      "emoji": "😰"
     },
     {
       "id": 15,
       "name": "Stressed",
-      "emoji": ""
+      "emoji": "🤕"
     },
     {
       "id": 16,
       "name": "Tired",
-      "emoji": ""
+      "emoji": "😫"
     },
+
     {
       "id": 17,
       "name": "Ashamed",
-      "emoji": ""
+      "emoji": "😳"
     },
     {
       "id": 18,
       "name": "Insecure",
-      "emoji": ""
+      "emoji": "😔"
     },
     {
       "id": 19,
       "name": "Sad",
-      "emoji": ""
+      "emoji": "😔"
     },
     {
       "id": 20,
       "name": "Envious",
-      "emoji": ""
+      "emoji": "😏"
     },
     {
       "id": 21,
       "name": "Disgusted",
-      "emoji": ""
+      "emoji": "🤢"
     },
     {
       "id": 22,
       "name": "Friendly",
-      "emoji": ""
+      "emoji": "🙂"
     },
     {
       "id": 23,
       "name": "Positive",
-      "emoji": ""
+      "emoji": "🤗"
     }
   ]
 }
