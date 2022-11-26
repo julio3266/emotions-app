@@ -1,13 +1,14 @@
 import React from 'react';
 import {render} from '@testing-library/react-native';
-import {mockTestID} from '../../utils/qualityAssurance';
-import {ThemeProviderWrapper as wrapper} from '../../utils/ThemeProviderWrapper';
+import {mockTestID} from '@utils/qualityAssurance';
+import {ThemeProviderWrapper as wrapper} from '@utils/ThemeProviderWrapper';
 import {Header, IHeaderProps} from '../Header';
 
 describe('Components/Header', () => {
   let props: IHeaderProps = {
     testID: 'Header',
     isBack: true,
+    isTitle: true,
     title: 'How are you feeling?',
     handlePress: jest.fn(),
   };
