@@ -11,17 +11,23 @@
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.17.11",
-    "@react-navigation/native": "^6.0.14",
-    "@react-navigation/native-stack": "^6.9.2",
+    "@react-navigation/native": "^6.0.12",
+    "@react-navigation/native-stack": "^6.8.0",
     "@rneui/base": "^4.0.0-rc.7",
     "@rneui/themed": "^4.0.0-rc.7",
+    "@types/axios": "^0.14.0",
+    "axios": "^1.2.0",
+    "css-select": "^5.1.0",
+    "css-tree": "^2.3.0",
     "json-server": "^0.17.1",
     "react": "18.1.0",
     "react-native": "0.70.6",
+    "react-native-gesture-handler": "^2.8.0",
     "react-native-reanimated": "^2.13.0",
     "react-native-safe-area-context": "^4.4.1",
     "react-native-screens": "^3.18.2",
     "react-native-vector-icons": "^9.2.0",
+    "react-navigation-hooks": "^1.1.0",
     "react-query": "^3.39.2",
     "styled-components": "^5.3.6"
   },
@@ -40,17 +46,26 @@
     "@types/styled-components-react-native": "^5.2.0",
     "@typescript-eslint/eslint-plugin": "^5.37.0",
     "@typescript-eslint/parser": "^5.37.0",
+    "add": "^2.0.6",
     "babel-jest": "^26.6.3",
+    "babel-plugin-module-resolver": "^4.1.0",
     "eslint": "^7.32.0",
     "jest": "^26.6.3",
     "metro-react-native-babel-preset": "0.72.3",
+    "react-native-svg": "^13.6.0",
+    "react-native-svg-transformer": "^1.0.0",
     "react-test-renderer": "18.1.0",
-    "typescript": "^4.8.3"
+    "typescript": "^4.8.3",
+    "yarn": "^1.22.19"
   },
   "jest": {
     "preset": "react-native",
     "transformIgnorePatterns": [
       "node_modules/(?!(jest-)?@?react-native|@react-native-community|@react-navigation)"
+    ],
+    "setupFiles": [
+      "./node_modules/react-native-gesture-handler/jestSetup.js",
+      "react-native/Libraries/Animated/NativeAnimatedHelper"
     ],
     "moduleFileExtensions": [
       "ts",

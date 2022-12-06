@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-shadow */
 import {Platform} from 'react-native';
-
 interface ItestID {
   accessible?: boolean;
   testID: string;
@@ -47,6 +46,7 @@ export const assignTestId = (
   const id = `${componentType}_${componentId}`;
   return testID(id);
 };
+
 export const mockTestID = (
   componentType: componentType,
   componentId: string,

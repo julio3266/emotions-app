@@ -1,8 +1,8 @@
 import React from 'react';
 import {StatusBar} from 'react-native';
-import {assignTestId} from '../../utils/qualityAssurance';
+import {assignTestId} from '@utils/qualityAssurance';
 
-type TypeOfBar = 'light' | 'default';
+type TypeOfBar = 'light' | 'dark';
 
 export interface ICustomStatusBar {
   testID?: string;
@@ -17,7 +17,7 @@ export const CustomStatusBar: React.FC<ICustomStatusBar> = ({
     <>
       <StatusBar
         {...assignTestId('TouchableOpacity', `${testID}_backButton`)}
-        barStyle={type === 'light' ? 'light-content' : 'dark-content'}
+        barStyle={type === 'light' ? 'light-content' : 'default'}
       />
     </>
   );

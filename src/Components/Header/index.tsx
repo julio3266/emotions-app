@@ -1,13 +1,16 @@
 import React from 'react';
-import {assignTestId} from '../../../src/utils/qualityAssurance';
+import {assignTestId} from '@utils/qualityAssurance';
 import {CustomStatusBar} from '../CustomStatusBar';
-// import {CustomStatusBar} from '../CustomStatusBar';
 import * as Styled from './styles';
+
+export type backButtonType = 'light' | 'dark';
 
 export interface IHeaderProps {
   testID?: string;
   title: string;
-  isBack: boolean;
+  isBack?: boolean;
+  isTitle?: boolean;
+  buttonColorType?: backButtonType;
   handlePress?: () => void;
 }
 
@@ -16,22 +19,24 @@ export const Header: React.FC<IHeaderProps> = ({
   title,
   isBack,
   handlePress,
+  buttonColorType = 'dark',
+  isTitle,
 }) => {
   return (
     <Styled.Container {...assignTestId('View', testID)}>
       <CustomStatusBar
         {...assignTestId('StatusBar', `${testID}_statusBar`)}
-        type="light"
+        type="dark"
       />
       {isBack && (
         <Styled.BackButton
           {...assignTestId('TouchableOpacity', `${testID}_backButton`)}
+          position={buttonColorType}
           onPress={handlePress}>
-          <Styled.LeftIcon />
+          <Styled.LeftIcon typeIcon={buttonColorType} />
         </Styled.BackButton>
       )}
-
-      <Styled.Title>{title}</Styled.Title>
+      {isTitle && <Styled.Title>{title}</Styled.Title>}
     </Styled.Container>
   );
 };
