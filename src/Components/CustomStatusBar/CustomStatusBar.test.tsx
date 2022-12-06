@@ -2,7 +2,7 @@ import React from 'react';
 import {render} from '@testing-library/react-native';
 import {mockTestID} from '../../utils/qualityAssurance';
 import {ThemeProviderWrapper as wrapper} from '../../utils/ThemeProviderWrapper';
-import {CustomStatusBar, ICustomStatusBar} from '../CustomStatusBar';
+import {CustomStatusBar, ICustomStatusBar} from '@Components/CustomStatusBar';
 
 describe('Components/CustomStatusBar', () => {
   let props: ICustomStatusBar = {

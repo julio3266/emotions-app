@@ -1,11 +1,12 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import {navigationRef} from '../utils/RootNavigation';
+
+import {navigationRef} from '@utils/RootNavigation';
 import {ThemeProvider} from 'styled-components';
-import {Home} from '@screens/Home';
-import {Details} from '@screens/Details';
-import Theme from '@theme/styles';
+import {Home} from '@Screens/Home';
+import {Details} from '@Screens/Details';
+import Theme from '@src/theme/styles';
 
 const Stack = createNativeStackNavigator();
 

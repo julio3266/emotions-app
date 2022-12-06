@@ -8,7 +8,7 @@ import {
 } from 'react-native-reanimated';
 import * as Styled from './styles';
 
-import {ProgressBar} from '@Components/ProgressBar';
+import {ProgressBar} from '../../components/ProgressBar';
 import {CustomStatusBar} from '@Components/CustomStatusBar';
 import {useRoute} from '@react-navigation/native';
 import {Header} from '@Components/Header';

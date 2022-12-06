@@ -92,8 +92,8 @@ export const ProgressBar: React.FC<IProgressBar> = ({
                     'View',
                     `${testID}_emotionsData_${percentIndex}`,
                   )}
-                  selected={percents.selected}>
-                  {percents.emotionTitle}
+                  selected={percents?.selected}>
+                  {percents?.emotionTitle}
                 </Styled.EmotionsData>
               );
             },
