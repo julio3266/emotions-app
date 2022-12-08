@@ -2,7 +2,7 @@ import React from 'react';
 import {render} from '@testing-library/react-native';
 import {mockTestID} from '../../utils/qualityAssurance';
 import {ThemeProviderWrapper as wrapper} from '../../utils/ThemeProviderWrapper';
-import {ContentHome, IContentHome} from '../ContentHome';
+import {ContentHome, IContentHome} from '@Components/ContentHome';
 
 describe('Components/ContentHome', () => {
   let props: IContentHome = {

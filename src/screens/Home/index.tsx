@@ -3,7 +3,7 @@ import * as Styled from './styles';
 import axios from 'axios';
 
 import {assignTestId} from '@utils/qualityAssurance';
-import {ContentHome} from '@Components/ContentHome';
+import {ContentHome} from '../../components/ContentHome';
 import {Loader} from '@Components/Loader';
 
 import {Header} from '@Components/Header';

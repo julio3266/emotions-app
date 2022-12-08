@@ -1,7 +1,7 @@
 import React from 'react';
 import {navigate} from '@src/utils/RootNavigation';
 import {assignTestId} from '@utils/qualityAssurance';
-import {BtnEmotion} from '../BtnEmotion';
+import {BtnEmotion} from '@Components/BtnEmotion';
 import * as Styled from './styles';
 
 export interface IContentHome {
@@ -31,7 +31,7 @@ export const ContentHome: React.FC<IContentHome> = ({
                     handlePress={() =>
                       navigate('Details', {
                         emoji: emotionItem?.emoji,
-                        currentEmotion: emotionItem.name,
+                        currentEmotion: emotionItem?.name,
                       })
                     }
                   />

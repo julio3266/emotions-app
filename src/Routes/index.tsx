@@ -1,6 +1,7 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
+
 import {navigationRef} from '@utils/RootNavigation';
 import {ThemeProvider} from 'styled-components';
 import {Home} from '@Screens/Home';

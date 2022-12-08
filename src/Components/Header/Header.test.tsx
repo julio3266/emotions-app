@@ -2,7 +2,7 @@ import React from 'react';
 import {render} from '@testing-library/react-native';
 import {mockTestID} from '@utils/qualityAssurance';
 import {ThemeProviderWrapper as wrapper} from '@utils/ThemeProviderWrapper';
-import {Header, IHeaderProps} from '../Header';
+import {Header, IHeaderProps} from '@Components/Header';
 
 describe('Components/Header', () => {
   let props: IHeaderProps = {
